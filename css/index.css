@@ -17,13 +17,13 @@ body{
     margin: 5px 0px 0px 20em;
 }
 .slick-wrapper {
-    overflow: hidden;
     margin: auto;
+    height: 400px;
 }
-
 .event {
-    height: inherit !important;
-    width: 100%;
+    width: auto;
+    height: 400px;
+    margin: 0 20px 0 20px;
     display: inline-block;
 }
 
@@ -34,7 +34,7 @@ body{
     justify-content: center;
     width: 1000px;
     margin: auto;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .character-portrait{
