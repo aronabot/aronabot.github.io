@@ -1,20 +1,21 @@
-let fs = require('fs');
-
 function buildEventSlider(eventDirectory){
-    var slickSlider = document.getElementsByClassName("slick-slider")
-    fs.readdir(eventDirectory, function(error, filelist){
-        for(var item in filelist){
-            var eventDiv = document.createElement("div"); 
-            eventDiv.setAttribute('class', 'event');
+    var fs = new ActiveXObject("scripting.FileSystemObject");
+    var filelist = new Enumerator(fs.GetFolder(eventDirectory));
 
-            var eventImage = document.createElement("img");
-            eventImage.setAttribute('class', 'event');
-            eventImage.setAttribute('src', `${eventDirectory}/${item}`);
-            
-            eventDiv.appendChild(eventImage);
-            slickSlider.appendChild(eventDiv);
-        }
-    });
+    var slickSlider = document.getElementsByClassName("slick-slider")
+
+    for(;!filelist.atEnd(); filelist.moveNext()){
+        var eventDiv = document.createElement("div"); 
+        eventDiv.setAttribute('class', 'event');
+
+        var eventImage = document.createElement("img");
+        eventImage.setAttribute('class', 'event');
+        eventImage.setAttribute('src', `${eventDirectory}/${filelist.item().name}`);
+        
+        eventDiv.appendChild(eventImage);
+        slickSlider.appendChild(eventDiv);
+    }
+
 }
 
 buildEventSlider('img/event')
