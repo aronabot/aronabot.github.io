@@ -5,6 +5,7 @@ $('.slick-slider').slick({
     slidesToScroll: 1,
     centerMode: true,
     variableWidth: true,
+
     
     //auto play property
     autoplay: true,
@@ -12,3 +13,5 @@ $('.slick-slider').slick({
     infinity: true,
     pauseOnHover: true
 });
+$('.slick-prev').remove();
+$('.slick-next').remove();
