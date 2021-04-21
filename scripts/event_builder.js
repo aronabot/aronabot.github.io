@@ -5,7 +5,7 @@ $('.slick-slider').slick({
     slidesToScroll: 1,
     centerMode: true,
     variableWidth: true,
-    arrows: true,
+    
     //auto play property
     autoplay: true,
     autoplaySpeed: 5000,
