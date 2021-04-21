@@ -1,0 +1,20 @@
+[
+    {
+        "name": "시로코",
+        "role": "어태커",
+        "icon": "img/character/Shiroko.png",
+        "rarity": 3
+    },
+    {
+        "name": "호시노",
+        "role": "어태커",
+        "icon": "img/character/Hoshino.png",
+        "rarity": 3
+    },
+    {
+        "name": "세리카",
+        "role": "어태커",
+        "icon": "img/character/Serika.png",
+        "rarity": 2
+    }
+]

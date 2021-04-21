@@ -1,0 +1,60 @@
+@charset "utf-8";
+body{
+    font-size: medium;
+}
+.character-portrait{
+    text-decoration: none;
+}
+.character-icon {
+    position: relative;
+
+    /*area property*/
+    width: 130px;
+    height: 180px;
+    border-radius: 10px;
+    
+    overflow: hidden;
+    /*margin: auto;*/
+    
+}
+.character-icon > .character-image {
+    /*image property*/
+    display: block;
+
+    width: 100%;
+    height: 77%;
+    border-radius: inherit;
+}
+
+.character-icon > .character-rarity {
+    /*container property*/
+    position: absolute;
+    width: inherit;
+    top: 60%;
+
+    background: rgba(21,33,49,.7);
+
+    /*item position property*/
+    display: flex;
+    /*item property*/
+    align-items: center;
+    justify-content: center;
+}
+
+.character-rarity > .character-rarity-image {
+    width: 15%;
+    height: 15%;
+    padding: 0 1px 0 1px;
+}
+
+.character-icon > .character-name{
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.character-icon > .character-role{
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
