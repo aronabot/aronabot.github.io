@@ -1,305 +1,356 @@
 [
     {
+        "info": "characters/Arisu.html",
         "name": "아리스",
         "role": "어태커",
         "icon": "img/character/Arisu.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "미도리",
         "role": "어태커",
         "icon": "img/character/Midori.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "모모이",
         "role": "어태커",
         "icon": "img/character/Momoi.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "아이리",
         "role": "서포터",
         "icon": "img/character/Airi.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "아카네",
         "role": "서포터",
         "icon": "img/character/Akane.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "아카리",
         "role": "어태커",
         "icon": "img/character/Akari.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "아루",
         "role": "어태커",
         "icon": "img/character/Aru.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "아스나",
         "role": "어태커",
         "icon": "img/character/Asuna.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "아야네",
         "role": "서포터",
         "icon": "img/character/Ayane.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "치나츠",
         "role": "힐러",
         "icon": "img/character/Chinatsu.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "치세",
         "role": "어태커",
         "icon": "img/character/Chise.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "에이미",
         "role": "탱커",
         "icon": "img/character/Eimi.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "피나",
         "role": "어태커",
         "icon": "img/character/Fina.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "후우카",
         "role": "힐러",
         "icon": "img/character/Fuuka.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "하나에",
         "role": "힐러",
         "icon": "img/character/Hanae.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "하레",
         "role": "서포터",
         "icon": "img/character/Hare.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "하루카",
         "role": "탱커",
         "icon": "img/character/Haruka.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "하루나",
         "role": "어태커",
         "icon": "img/character/Haruna.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "하스미",
         "role": "어태커",
         "icon": "img/character/Hasumi.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "히비키",
         "role": "어태커",
         "icon": "img/character/Hibiki.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "히후미",
         "role": "서포터",
         "icon": "img/character/Hifumi.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "히나",
         "role": "어태커",
         "icon": "img/character/Hina.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "호시노",
         "role": "탱커",
         "icon": "img/character/Hoshino.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "이오리",
         "role": "어태커",
         "icon": "img/character/Iori.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "이즈미",
         "role": "어태커",
         "icon": "img/character/Izumi.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "이즈나",
         "role": "어태커",
         "icon": "img/character/Izuna.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "쥰코",
         "role": "어태커",
         "icon": "img/character/Junko.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "주리",
         "role": "서포터",
         "icon": "img/character/Juri.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "카린",
         "role": "어태커",
         "icon": "img/character/Karin.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "카요코",
         "role": "서포터",
         "icon": "img/character/Kayoko.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "코타마",
         "role": "서포터",
         "icon": "img/character/Kotama.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "코토리",
         "role": "서포터",
         "icon": "img/character/Kotori.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "마키",
         "role": "어태커",
         "icon": "img/character/Maki.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "마시로",
         "role": "어태커",
         "icon": "img/character/Mashiro.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "무즈키",
         "role": "어태커",
         "icon": "img/character/Mutsuki.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "네루",
         "role": "어태커",
         "icon": "img/character/Neru.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "노노미",
         "role": "어태커",
         "icon": "img/character/Nonomi.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "사야",
         "role": "서포터",
         "icon": "img/character/Saya.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "세리카",
         "role": "어태커",
         "icon": "img/character/Serika.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "세리나",
         "role": "힐러",
         "icon": "img/character/Serina.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "시미코",
         "role": "서포터",
         "icon": "img/character/Shimiko.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "시로코",
         "role": "어태커",
         "icon": "img/character/Shiroko.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "슌",
         "role": "어태커",
         "icon": "img/character/Shun.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "스미레",
         "role": "어태커",
         "icon": "img/character/Sumire.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "스즈미",
         "role": "서포터",
         "icon": "img/character/Suzumi.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "츠바키",
         "role": "탱커",
         "icon": "img/character/Tsubaki.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "츠루기",
         "role": "어태커",
         "icon": "img/character/Tsurugi.png",
         "rarity": 3
     },
     {
+        "info": "characters/Arisu.html",
         "name": "우타하",
         "role": "어태커",
         "icon": "img/character/Utaha.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "요시미",
         "role": "어태커",
         "icon": "img/character/Yoshimi.png",
         "rarity": 1
     },
     {
+        "info": "characters/Arisu.html",
         "name": "유우카",
         "role": "탱커",
         "icon": "img/character/Yuuka.png",
         "rarity": 2
     },
     {
+        "info": "characters/Arisu.html",
         "name": "시즈코",
         "role": "서포터",
         "icon": "img/character/Shizuko.png",
