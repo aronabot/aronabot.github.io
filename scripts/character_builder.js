@@ -6,7 +6,7 @@ function buildCharacterIcon(JSONObject){
         var characterPortrait = document.createElement("a");
         characterPortrait.setAttribute('class', 'character-portrait');
         //href append later
-        characterPortrait.setAttribute('href', `characters/${character['info']}`);
+        characterPortrait.setAttribute('href', `${character['info']}`);
 
         var characterIcon = document.createElement("div");
         characterIcon.setAttribute('class', 'character-icon');
