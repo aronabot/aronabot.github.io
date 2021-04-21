@@ -1,7 +1,7 @@
 @charset "utf-8";
 body{
     font-size: medium;
-    background-color: rgb(50, 50, 70);
+    /*background-color: rgb(50, 50, 70);*/
     margin: 0px;
 }
 
@@ -12,7 +12,7 @@ body{
     margin: 0px;
     background-color: rgb(43, 60, 78);
 }
-.header > .title {
+.title {
     width: auto;
     height: inherit;
     margin: 5px 0px 0px 20em;
@@ -70,7 +70,7 @@ body{
     border-radius: inherit;
 }
 
-.character-icon > .character-rarity {
+.character-rarity {
     /*container property*/
     position: absolute;
     width: inherit;
