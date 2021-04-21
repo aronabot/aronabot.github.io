@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>블루아카이브 학생부</title>
+        <link rel='stylesheet' href='../css/index.css' type='text/css'>
+        <style>
+            .character-container {
+                display: flex;
+                margin: 30px 0 0 200px;
+            }
+
+            .character-info {
+                margin: 0 20px 0 20px
+            }
+
+            .character-profile {
+                display: block;
+                width: 200px;
+            }
+            .character-profile > .character-image {
+                width: inherit;
+                height: auto;
+            }
+            
+            .character-rarity {
+                /*container property*/
+                position: relative;
+                border-radius: 5px;
+            }
+
+            .character-property-container {
+                display: flex;
+                width: 80%;
+                height: 40px;
+            }
+
+            .character-skill-info {
+
+            }
+
+            .character-equipment-info {
+                display: flex;
+            }
+
+            .right{
+                margin-left: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='header'>
+            <img class='title' src="../img/icons/logo.png">
+        </div>
+        <div class='character-container'>
+            <div class='character-info'>
+                <div class='character-profile'>
+                    <img class='character-image', src='../img/character/Arisu.png'>
+                    <div class='character-rarity'>
+                        <img class='character-rarity-image' src='../img/icons/icon-rarity.png' alt="Character Rarity">
+                        <img class='character-rarity-image' src='../img/icons/icon-rarity.png' alt="Character Rarity">
+                        <img class='character-rarity-image' src='../img/icons/icon-rarity.png' alt="Character Rarity">
+                    </div>
+                    <h1>아리스</h1>
+                    <div class='character-property-container'>
+                        <h3 class='left'>학교</h3>
+                        <h3 class='right'>밀레니엄</h3>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>역할</h4>
+                        <h4 class='right'>어태커</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>위치</h4>
+                        <h4 class='right'>후방</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>무기</h4>
+                        <h4 class='right'>RG</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>공격타입</h4>
+                        <h4 class='right'>신비</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>방어타입</h4>
+                        <h4 class='right'>특수장갑</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>HP</h4>
+                        <h4 class='right'>2142</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>공격력</h4>
+                        <h4 class='right'>514</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>방어력</h4>
+                        <h4 class='right'>68</h4>
+                    </div>
+                    <div class='character-property-container'>
+                        <h4 class='left'>치유력</h4>
+                        <h4 class='right'>1892</h4>
+                    </div>
+                </div>
+            </div>
+            <div class='character-info'>
+                <div class='character-skill-info'>
+                    <h1>스킬 목록</h1>
+                    <div class='character-ex-skill-info'>
+                        <h2>EX</h2>
+                        <h3>Cost: 6</h3>
+                        <h3>세계의 법칙이 붕괴됩니다!</h3>
+                        <h4>
+                            직선 범위 내 적에게 공격력 311% 피해 </br>
+                            에너지 충전 단계에 따라 1.5배 혹은 2배 증가 </br>
+                            (발사 후 에너지 충전 단계는 초기화) </br>
+                        </h4>
+                    </div>
+                    <div class='character-normal-skill-info'>
+                        <h2>일반</h2>
+                        <h3>빛이여!</h3>
+                        <h4>
+                            25초마다 회심율 17% 증가(20초) </br>
+                            에너지 1단계 충전 (최대 2단계) </br>
+                        </h4>
+                    </div>
+                    <div class='character-passive-skill-info'>
+                        <h2>패시브</h2>
+                        <h3>강화마법입니다!</h3>
+                        <h4>
+                            자신의 공격력 14% 증가 </br>
+                        </h4>
+                    </div>
+                    <div class='character-sub-skill-info'>
+                        <h2>서브</h2>
+                        <h3>각성하라, 슈퍼노바!</h3>
+                        <h4>
+                            Ex스킬 발동과 동시에 회심율 12.1% 증가(20초) </br>
+                            에너지 충전 단계에 따라 1.5배 혹은 2배 증가 </br>
+                        </h4>
+                    </div>
+                </div>
+                <h1>장비 목록</h1>
+                <div class='character-equipment-info'>
+                    <div>
+                        <img class = 'equipment' src='../img/icons/Hat.png'>
+                        <p>모자</p>
+                    </div>
+                    <div>
+                        <img class = 'equipment' src='../img/icons/Hairpin.png'>
+                        <p>머리핀</p>
+                    </div>
+                    <div>
+                        <img class = 'equipment' src='../img/icons/Charm.png'>
+                        <p>부적</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
