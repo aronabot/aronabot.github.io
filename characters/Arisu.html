@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>블루아카이브 학생부</title>
-        <link rel='stylesheet' href='../css/index.css' type='text/css'>
-        <style>
-            .character-container {
-                display: flex;
-                margin: 30px 0 0 200px;
-            }
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>블루아카이브 학생부 -아리스-</title>
 
-            .character-info {
-                margin: 0 20px 0 20px
+        <link rel='stylesheet' href='../css/index.css' type='text/css'>
+        <link rel='stylesheet' href='../css/mobile.css' type='text/css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <style>
+            .character-info-container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                justify-content: center;
             }
 
             .character-profile {
                 display: block;
                 width: 200px;
+                margin-left: auto;
+                margin-right: 20px;
             }
+
             .character-profile > .character-image {
                 width: inherit;
                 height: auto;
@@ -29,27 +36,59 @@
             }
 
             .character-property-container {
-                display: flex;
+                display: block;
                 width: 80%;
                 height: 40px;
             }
 
+            .character-property-container::after {
+                content: '';
+                border-bottom: 1px solid rgba(0, 0, 0, .3);
+            }
 
-
-            .character-equipment-info {
+            .character-equipment-container {
                 display: flex;
+                flex-wrap: wrap;
+            }
+
+            .equipment-slot {
+                width: 200px;
+                height: 200px;
             }
 
             .right{
                 margin-left: auto;
             }
+
         </style>
     </head>
     <body>
-        <div class='header'>
-            <img class='title' src="../img/icons/logo.png">
+        <nav>
+            <a class='logo' href='../index.html'>
+                <img id='logo-image' src='../img/icons/logo.png'>
+            </a>
+
+            <div class='item-container'>
+                <a class='item' href=''>캐릭터</a>
+                <a class='item' href=''>이벤트</a>
+                <a class='item' href=''>가챠</a>
+                <div onclick='history.back();' class='button-cover'></div>
+                <div class='mobile-nav-button'>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <div onclick="history.back();" class='page-cover'></div>
+        <div class='mobile-nav'>
+            <a class='item' href=''>캐릭터</a>
+            <a class='item' href=''>이벤트</a>
+            <a class='item' href=''>가챠</a>
         </div>
-        <div class='character-container'>
+
+        <div class='character-info-container'>
             <div class='character-info'>
                 <div class='character-profile'>
                     <img class='character-image', src='../img/character/Arisu.png'>
@@ -105,9 +144,11 @@
                 <div class='character-skill-info'>
                     <h1>스킬 목록</h1>
                     <div class='character-ex-skill-info'>
-                        <h2>EX</h2>
+                        <div class='character-property-container'>
+                            <h2 class='left'>EX</h4>
+                            <h2 class='right'>세계의 법칙이 붕괴합니다!</h4>
+                        </div>
                         <h3>Cost: 6</h3>
-                        <h3>세계의 법칙이 붕괴됩니다!</h3>
                         <h4>
                             직선 범위 내 적에게 공격력 311% 피해 </br>
                             에너지 충전 단계에 따라 1.5배 혹은 2배 증가 </br>
@@ -115,16 +156,20 @@
                         </h4>
                     </div>
                     <div class='character-normal-skill-info'>
-                        <h2>일반</h2>
-                        <h3>빛이여!</h3>
+                        <div class='character-property-container'>
+                            <h2 class='left'>일반</h4>
+                            <h2 class='right'>빛이여!</h4>
+                        </div>
                         <h4>
                             25초마다 회심율 17% 증가(20초) </br>
                             에너지 1단계 충전 (최대 2단계) </br>
                         </h4>
                     </div>
                     <div class='character-passive-skill-info'>
-                        <h2>패시브</h2>
-                        <h3>강화마법입니다!</h3>
+                        <div class='character-property-container'>
+                            <h2 class='left'>패시브</h4>
+                            <h2 class='right'>강화마법입니다!</h4>
+                        </div>
                         <h4>
                             자신의 공격력 14% 증가 </br>
                         </h4>
@@ -139,21 +184,23 @@
                     </div>
                 </div>
                 <h1>장비 목록</h1>
-                <div class='character-equipment-info'>
+                <div class='character-equipment-container'>
                     <div>
-                        <img class = 'equipment' src='../img/icons/Hat.png'>
+                        <img class ='equipment-slot' src='../img/icons/Hat.png'>
                         <p>모자</p>
                     </div>
                     <div>
-                        <img class = 'equipment' src='../img/icons/Hairpin.png'>
+                        <img class ='equipment-slot' src='../img/icons/Hairpin.png'>
                         <p>머리핀</p>
                     </div>
                     <div>
-                        <img class = 'equipment' src='../img/icons/Charm.png'>
+                        <img class ='equipment-slot' src='../img/icons/Charm.png'>
                         <p>부적</p>
                     </div>
                 </div>
             </div>
         </div>
+        <script type='text/javascript' src='../data/character.json'></script>
+        <script type='text/javascript' src='../scripts/mobile_nav.js'></script>
     </body>
 </html>
