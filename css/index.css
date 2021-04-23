@@ -14,7 +14,7 @@ nav {
     display: flex;
     height: 60px;
     padding: 0 15% 0 15%;
-
+    position: sticky;
     background-color: rgba(43, 60, 78, .9);
 }
 
@@ -91,6 +91,7 @@ nav > .logo {
 
 
 .event-container {
+    top: 60px;
     height: 400px;
 }
 
