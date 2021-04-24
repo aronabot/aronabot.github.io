@@ -7,200 +7,45 @@
 
         <link rel='stylesheet' href='../css/index.css' type='text/css'>
         <link rel='stylesheet' href='../css/mobile.css' type='text/css'>
+        <link rel='stylesheet' href='../css/character_info.css' type='text/css'>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
-        <style>
-            .character-info-container {
-                display: flex;
-                flex-wrap: wrap;
-                margin-top: 20px;
-                justify-content: center;
-            }
-
-            .character-profile {
-                display: block;
-                width: 200px;
-                margin-left: auto;
-                margin-right: 20px;
-            }
-
-            .character-profile > .character-image {
-                width: inherit;
-                height: auto;
-            }
-            
-            .character-rarity {
-                /*container property*/
-                position: relative;
-                border-radius: 5px;
-            }
-
-            .character-property-container {
-                display: block;
-                width: 80%;
-                height: 40px;
-            }
-
-            .character-property-container::after {
-                content: '';
-                border-bottom: 1px solid rgba(0, 0, 0, .3);
-            }
-
-            .character-equipment-container {
-                display: flex;
-                flex-wrap: wrap;
-            }
-
-            .equipment-slot {
-                width: 200px;
-                height: 200px;
-            }
-
-            .right{
-                margin-left: auto;
-            }
-
-        </style>
+        <script type='text/javascript' src='../scripts/character_info_builder.js'></script>
     </head>
     <body>
-        <nav>
-            <a class='logo' href='../index.html'>
-                <img id='logo-image' src='../img/icons/logo.png'>
-            </a>
-
-            <div class='item-container'>
-                <a class='item' href=''>캐릭터</a>
-                <a class='item' href=''>이벤트</a>
-                <a class='item' href=''>가챠</a>
-                <div onclick='history.back();' class='button-cover'></div>
-                <div class='mobile-nav-button'>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <header>
+            <nav>
+                <a class='logo' href='../index.html'>
+                    <img id='logo-image' src='../img/icons/logo.png'>
+                </a>
+    
+                <div class='item-container'>
+                    <a class='item' href='../character.html'>캐릭터</a>
+                    <a class='item' href='../ready.html'>이벤트</a>
+                    <a class='item' href='../ready.html'>가챠</a>
+                    <div onclick='history.back();' class='button-cover'></div>
+                    <div class='mobile-nav-button'>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
+            </nav>
+    
+    
+            <div onclick="history.back();" class='page-cover'></div>
+            <div class='mobile-nav'>
+                <a class='item' href='../character.html'>캐릭터</a>
+                <a class='item' href='../ready.html'>이벤트</a>
+                <a class='item' href='../ready.html'>가챠</a>
             </div>
-        </nav>
+        </header>
 
-        <div onclick="history.back();" class='page-cover'></div>
-        <div class='mobile-nav'>
-            <a class='item' href=''>캐릭터</a>
-            <a class='item' href=''>이벤트</a>
-            <a class='item' href=''>가챠</a>
-        </div>
 
-        <div class='character-info-container'>
-            <div class='character-info'>
-                <div class='character-profile'>
-                    <img class='character-image', src='../img/character/Arisu.png'>
-                    <div class='character-rarity'>
-                        <img class='character-rarity-image' src='../img/icons/icon-rarity.png' alt="Character Rarity">
-                        <img class='character-rarity-image' src='../img/icons/icon-rarity.png' alt="Character Rarity">
-                        <img class='character-rarity-image' src='../img/icons/icon-rarity.png' alt="Character Rarity">
-                    </div>
-                    <h1>아리스</h1>
-                    <div class='character-property-container'>
-                        <h3 class='left'>학교</h3>
-                        <h3 class='right'>밀레니엄</h3>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>역할</h4>
-                        <h4 class='right'>어태커</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>위치</h4>
-                        <h4 class='right'>후방</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>무기</h4>
-                        <h4 class='right'>RG</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>공격타입</h4>
-                        <h4 class='right'>신비</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>방어타입</h4>
-                        <h4 class='right'>특수장갑</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>HP</h4>
-                        <h4 class='right'>2142</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>공격력</h4>
-                        <h4 class='right'>514</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>방어력</h4>
-                        <h4 class='right'>68</h4>
-                    </div>
-                    <div class='character-property-container'>
-                        <h4 class='left'>치유력</h4>
-                        <h4 class='right'>1892</h4>
-                    </div>
-                </div>
-            </div>
-            <div class='character-info'>
-                <div class='character-skill-info'>
-                    <h1>스킬 목록</h1>
-                    <div class='character-ex-skill-info'>
-                        <div class='character-property-container'>
-                            <h2 class='left'>EX</h4>
-                            <h2 class='right'>세계의 법칙이 붕괴합니다!</h4>
-                        </div>
-                        <h3>Cost: 6</h3>
-                        <h4>
-                            직선 범위 내 적에게 공격력 311% 피해 </br>
-                            에너지 충전 단계에 따라 1.5배 혹은 2배 증가 </br>
-                            (발사 후 에너지 충전 단계는 초기화) </br>
-                        </h4>
-                    </div>
-                    <div class='character-normal-skill-info'>
-                        <div class='character-property-container'>
-                            <h2 class='left'>일반</h4>
-                            <h2 class='right'>빛이여!</h4>
-                        </div>
-                        <h4>
-                            25초마다 회심율 17% 증가(20초) </br>
-                            에너지 1단계 충전 (최대 2단계) </br>
-                        </h4>
-                    </div>
-                    <div class='character-passive-skill-info'>
-                        <div class='character-property-container'>
-                            <h2 class='left'>패시브</h4>
-                            <h2 class='right'>강화마법입니다!</h4>
-                        </div>
-                        <h4>
-                            자신의 공격력 14% 증가 </br>
-                        </h4>
-                    </div>
-                    <div class='character-sub-skill-info'>
-                        <h2>서브</h2>
-                        <h3>각성하라, 슈퍼노바!</h3>
-                        <h4>
-                            Ex스킬 발동과 동시에 회심율 12.1% 증가(20초) </br>
-                            에너지 충전 단계에 따라 1.5배 혹은 2배 증가 </br>
-                        </h4>
-                    </div>
-                </div>
-                <h1>장비 목록</h1>
-                <div class='character-equipment-container'>
-                    <div>
-                        <img class ='equipment-slot' src='../img/icons/Hat.png'>
-                        <p>모자</p>
-                    </div>
-                    <div>
-                        <img class ='equipment-slot' src='../img/icons/Hairpin.png'>
-                        <p>머리핀</p>
-                    </div>
-                    <div>
-                        <img class ='equipment-slot' src='../img/icons/Charm.png'>
-                        <p>부적</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div id='character-info-container'></div>
         <script type='text/javascript' src='../data/character.json'></script>
         <script type='text/javascript' src='../scripts/mobile_nav.js'></script>
+        <script type='application/javascript'>
+            loadJSON('../data/character.json', '아리스');
+        </script>
     </body>
 </html>

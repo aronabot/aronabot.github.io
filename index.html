@@ -15,32 +15,33 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     </head>
     <body>
-
-        <nav>
-            <a class='logo' href='index.html'>
-                <img id='logo-image' src='img/icons/logo.png'>
-            </a>
-
-            <div class='item-container'>
-                <a class='item' href='ready.html'>캐릭터</a>
+        <header>
+            <nav>
+                <a class='logo' href='index.html'>
+                    <img id='logo-image' src='img/icons/logo.png'>
+                </a>
+    
+                <div class='item-container'>
+                    <a class='item' href='character.html'>캐릭터</a>
+                    <a class='item' href='ready.html'>이벤트</a>
+                    <a class='item' href='ready.html'>가챠</a>
+                    <div onclick='history.back();' class='button-cover'></div>
+                    <div class='mobile-nav-button'>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+    
+    
+            <div onclick="history.back();" class='page-cover'></div>
+            <div class='mobile-nav'>
+                <a class='item' href='character.html'>캐릭터</a>
                 <a class='item' href='ready.html'>이벤트</a>
                 <a class='item' href='ready.html'>가챠</a>
-                <div onclick='history.back();' class='button-cover'></div>
-                <div class='mobile-nav-button'>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
             </div>
-        </nav>
-
-
-        <div onclick="history.back();" class='page-cover'></div>
-        <div class='mobile-nav'>
-            <a class='item' href=''>캐릭터</a>
-            <a class='item' href=''>이벤트</a>
-            <a class='item' href=''>가챠</a>
-        </div>
+        </header>
 
         <div class='event-container'>
             <div class="slick-slider">
@@ -56,10 +57,11 @@
             </div>
         </div>
 
-        <div id='character-icon-container'></div>
-        
-        <script type='text/javascript' src='data/character.json'></script>
-        <script type='text/javascript' src='scripts/character_builder.js'></script>
+        <div class='character-summary'>
+            <div>픽업 캐릭터</div>
+            <div>최근 추가된 캐릭터</div>
+        </div>
+
         <script type='text/javascript' src='scripts/event_builder.js'></script>
         <script type='text/javascript' src='scripts/mobile_nav.js'></script>
     </body>

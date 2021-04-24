@@ -4,7 +4,42 @@
         "name": "아리스",
         "role": "어태커",
         "icon": "img/character/Arisu.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "밀레니엄",
+            "role": "어태커",
+            "position": "후방",
+            "weapon": "RG",
+            "attackType": "신비",
+            "defenceType": "특수장갑",
+
+            "HP": 2142,
+            "ATK": 514,
+            "DEF": 68,
+            "HEAL": 1892,
+            "skill": {
+                "EX": {
+                    "name": "세계의 법칙이 붕괴합니다!",
+                    "cost": 6,
+                    "describe": "직선 범위 내 적에게 공격력 311% 피해</br>에너지 충전 단계에 따라 1.5배 혹은 2배 증가</br>(발사 후 에너지 충전 단계는 초기화)"
+                },
+                "normal": {
+                    "name": "빛이여!",
+                    "describe": "25초마다 회심율 17% 증가(20초)</br>에너지 1단계 충전 (최대 2단계)"
+                },
+                "passive": {
+                    "name": "강화마법입니다!",
+                    "describe": "자신의 공격력 14% 증가"
+                },
+                "sub": {
+                    "name": "각성하라, 슈퍼노바!",
+                    "describe": "EX 스킬 발동과 동시에 회심률 12.1% 증가(20초)</br>에너지 충전 단계에 따라 1.5배 혹은 2배 증가"
+                }
+            },
+            "equipment": [
+                "Hat", "Hairpin", "Charm"
+            ]
+        }
     },
     {
         "info": "characters/Arisu.html",
