@@ -8,7 +8,7 @@
         "property": {
             "school": "밀레니엄",
             "role": "어태커",
-            "position": "후방",
+            "position": "후위",
             "weapon": "RG",
             "attackType": "신비",
             "defenceType": "특수장갑",
@@ -50,7 +50,7 @@
         "property": {
             "school": "밀레니엄",
             "role": "어태커",
-            "position": "후방",
+            "position": "후위",
             "weapon": "SR",
             "attackType": "관통",
             "defenceType": "경장갑",
@@ -75,7 +75,7 @@
                 },
                 "sub": {
                     "name": "개발자 시너지: 모모이",
-                    "describe": "공격속도 15% 증가</br>만약, 같은 부대에 모모이가 있을 경우</br>공격속도 18.1% 증가"
+                    "describe": "공격속도 15% 증가</br>만약, 같은 부대에 모모이가 있을 경우</br>공격속도 18.1%로 증가"
                 }
             },
             "equipment": [
@@ -84,32 +84,172 @@
         }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Momoi.html",
         "name": "모모이",
         "role": "어태커",
         "icon": "img/character/Momoi.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "밀레니엄",
+            "role": "어태커",
+            "position": "중위",
+            "weapon": "AR",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2426,
+            "ATK": 233,
+            "DEF": 20,
+            "HEAL": 1465,
+            "skill": {
+                "EX": {
+                    "name": "창작의 고통",
+                    "cost": 3,
+                    "describe": "범위 내의 적에게 공격력 338%의 피해</br>만약, 미도리가 같은 부대에 있을 경우</br>공격력 72% 화상 지속 피해 부여(20초)"
+                },
+                "normal": {
+                    "name": "마감 엄수",
+                    "describe": "30초 마다 명중률 22.3% 증가 (20초)"
+                },
+                "passive": {
+                    "name": "크리에이티브 센스",
+                    "describe": "회심율 14% 증가"
+                },
+                "sub": {
+                    "name": "개발자 시너지: 미도리",
+                    "describe": "공격력 15.1% 증가</br>만약, 같은 부대에 미도리가 있을 경우</br>공격력 18.1%로 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Watch"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Airi.html",
         "name": "아이리",
         "role": "서포터",
         "icon": "img/character/Airi.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "트리니티",
+            "role": "서포터",
+            "position": "후위",
+            "weapon": "SMG",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2368,
+            "ATK": 183,
+            "DEF": 20,
+            "HEAL": 1725,
+            "skill": {
+                "EX": {
+                    "name": "아쉽지만...... 에잇!",
+                    "cost": 5,
+                    "describe": "원형 범위 내 적에 대해 공격력 265%의 피해</br>및, 이동속도 22.8% 감소(20초)"
+                },
+                "normal": {
+                    "name": "머리가 띵- 할지도...",
+                    "describe": "25초 마다 적 1명에 대해 공격속도 18.4% 감소 (30초)"
+                },
+                "passive": {
+                    "name": "디저트의 힘",
+                    "describe": "공격력 14% 증가"
+                },
+                "sub": {
+                    "name": "아이리의 성원",
+                    "describe": "아군 공격속도 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Akane.html",
         "name": "아카네",
         "role": "서포터",
         "icon": "img/character/Akane.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "밀레니엄",
+            "role": "서포터",
+            "position": "중위",
+            "weapon": "HG",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2318,
+            "ATK": 102,
+            "DEF": 19,
+            "HEAL": 1496,
+            "skill": {
+                "EX": {
+                    "name": "우아하게 배제하겠습니다",
+                    "cost": 2,
+                    "describe": "적 1명에게 공격력 547%의 피해</br>및, 방어력 29% 감소(30초)"
+                },
+                "normal": {
+                    "name": "품위 있게 꿰뚫겠습니다",
+                    "describe": "40초마다 적 1명에게 공격력 396%의 피해"
+                },
+                "passive": {
+                    "name": "신속히 전진하겠습니다",
+                    "describe": "이동속도 14% 증가"
+                },
+                "sub": {
+                    "name": "정확하게 제압하겠습니다",
+                    "describe": "공격 시 10%확률로 적의 회피율 6.7% 감소(30초)</br>(쿨타임 5초)"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Akari.html",
         "name": "아카리",
         "role": "어태커",
         "icon": "img/character/Akari.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "게헨나",
+            "role": "어태커",
+            "position": "중위",
+            "weapon": "AR",
+            "attackType": "폭발",
+            "defenceType": "중장갑",
+
+            "HP": 2364,
+            "ATK": 288,
+            "DEF": 21,
+            "HEAL": 1466,
+            "skill": {
+                "EX": {
+                    "name": "그레네이드, 곱빼기로!",
+                    "cost": 4,
+                    "describe": "원형 범위 내 적에게 공격력 392%의 피해"
+                },
+                "normal": {
+                    "name": "한그릇 더, 좀 매콤하게!",
+                    "describe": "일반 공격시 10% 확률로 공격력 38.7% 증가(20초)</br>(쿨타임 15초)"
+                },
+                "passive": {
+                    "name": "잘 먹었습니다!",
+                    "describe": "HP 14% 증가"
+                },
+                "sub": {
+                    "name": "아직 더 먹을 수 있어요!",
+                    "describe": "일반 공격시 10% 확률로 공격력 34.4% 증가(26초)</br>(쿨타임 18초)"
+                }
+            },
+            "equipment": [
+                "Hat", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "info": "characters/Arisu.html",
