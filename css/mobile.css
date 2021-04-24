@@ -65,6 +65,7 @@
         position: fixed;
         width: 300px;
         height: 100vh;
+        top: 80px;
         right: -300px;
         margin-left: auto;
         z-index: 2;
@@ -76,6 +77,7 @@
     }
 
     .mobile-nav.open-mobile-nav {
+        top: 80px;
         right: 0px;
     }
 
