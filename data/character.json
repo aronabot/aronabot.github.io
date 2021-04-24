@@ -1,5 +1,6 @@
 [
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "아리스",
         "role": "어태커",
@@ -42,6 +43,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Midori.html",
         "name": "미도리",
         "role": "어태커",
@@ -84,6 +86,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Momoi.html",
         "name": "모모이",
         "role": "어태커",
@@ -126,6 +129,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Airi.html",
         "name": "아이리",
         "role": "서포터",
@@ -168,6 +172,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Akane.html",
         "name": "아카네",
         "role": "서포터",
@@ -210,6 +215,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Akari.html",
         "name": "아카리",
         "role": "어태커",
@@ -252,6 +258,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Aru.html",
         "name": "아루",
         "role": "어태커",
@@ -294,6 +301,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Asuna.html",
         "name": "아스나",
         "role": "어태커",
@@ -336,6 +344,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Ayane.html",
         "name": "아야네",
         "role": "서포터",
@@ -378,6 +387,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Chinatsu.html",
         "name": "치나츠",
         "role": "힐러",
@@ -420,6 +430,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Chise.html",
         "name": "치세",
         "role": "어태커",
@@ -462,6 +473,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Eimi.html",
         "name": "에이미",
         "role": "탱커",
@@ -504,6 +516,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Fina.html",
         "name": "피나",
         "role": "어태커",
@@ -546,6 +559,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Fuuka.html",
         "name": "후우카",
         "role": "힐러",
@@ -588,6 +602,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Hanae.html",
         "name": "하나에",
         "role": "힐러",
@@ -630,6 +645,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Hare.html",
         "name": "하레",
         "role": "서포터",
@@ -672,6 +688,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Haruka.html",
         "name": "하루카",
         "role": "탱커",
@@ -714,6 +731,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Haruna.html",
         "name": "하루나",
         "role": "어태커",
@@ -756,6 +774,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Hasumi.html",
         "name": "하스미",
         "role": "어태커",
@@ -798,6 +817,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Hibiki.html",
         "name": "히비키",
         "role": "어태커",
@@ -840,6 +860,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Hifumi.html",
         "name": "히후미",
         "role": "서포터",
@@ -882,6 +903,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Hina.html",
         "name": "히나",
         "role": "어태커",
@@ -924,6 +946,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Hoshino.html",
         "name": "호시노",
         "role": "탱커",
@@ -966,6 +989,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Iori.html",
         "name": "이오리",
         "role": "어태커",
@@ -1008,6 +1032,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Izumi.html",
         "name": "이즈미",
         "role": "어태커",
@@ -1050,6 +1075,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Izuna.html",
         "name": "이즈나",
         "role": "어태커",
@@ -1092,6 +1118,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Junko.html",
         "name": "쥰코",
         "role": "어태커",
@@ -1134,6 +1161,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Juri.html",
         "name": "쥬리",
         "role": "서포터",
@@ -1176,6 +1204,7 @@
         }
     },
     {
+        "pickup": true,
         "info": "characters/Karin.html",
         "name": "카린",
         "role": "어태커",
@@ -1218,6 +1247,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Kayoko.html",
         "name": "카요코",
         "role": "서포터",
@@ -1260,6 +1290,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Kotama.html",
         "name": "코타마",
         "role": "서포터",
@@ -1302,6 +1333,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Kotori.html",
         "name": "코토리",
         "role": "서포터",
@@ -1344,6 +1376,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Maki.html",
         "name": "마키",
         "role": "어태커",
@@ -1386,6 +1419,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Mashiro.html",
         "name": "마시로",
         "role": "어태커",
@@ -1428,8 +1462,9 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Mutsuki.html",
-        "name": "무즈키",
+        "name": "무츠키",
         "role": "어태커",
         "icon": "img/character/Mutsuki.png",
         "rarity": 2,
@@ -1470,6 +1505,7 @@
         }
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "네루",
         "role": "어태커",
@@ -1477,6 +1513,7 @@
         "rarity": 3
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "노노미",
         "role": "어태커",
@@ -1484,6 +1521,7 @@
         "rarity": 2
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "사야",
         "role": "서포터",
@@ -1491,6 +1529,7 @@
         "rarity": 3
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "세리카",
         "role": "어태커",
@@ -1498,6 +1537,7 @@
         "rarity": 2
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "세리나",
         "role": "힐러",
@@ -1505,6 +1545,7 @@
         "rarity": 1
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "시미코",
         "role": "서포터",
@@ -1512,6 +1553,7 @@
         "rarity": 1
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "시로코",
         "role": "어태커",
@@ -1519,6 +1561,7 @@
         "rarity": 3
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "슌",
         "role": "어태커",
@@ -1526,6 +1569,7 @@
         "rarity": 3
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "스미레",
         "role": "어태커",
@@ -1533,6 +1577,7 @@
         "rarity": 3
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "스즈미",
         "role": "서포터",
@@ -1540,6 +1585,7 @@
         "rarity": 1
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "츠바키",
         "role": "탱커",
@@ -1547,6 +1593,7 @@
         "rarity": 2
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "츠루기",
         "role": "어태커",
@@ -1554,6 +1601,7 @@
         "rarity": 3
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "우타하",
         "role": "어태커",
@@ -1561,6 +1609,7 @@
         "rarity": 2
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "요시미",
         "role": "어태커",
@@ -1568,6 +1617,7 @@
         "rarity": 1
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "유우카",
         "role": "탱커",
@@ -1575,6 +1625,7 @@
         "rarity": 2
     },
     {
+        "pickup": false,
         "info": "characters/Arisu.html",
         "name": "시즈코",
         "role": "서포터",
