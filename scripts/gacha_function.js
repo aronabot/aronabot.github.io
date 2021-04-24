@@ -170,15 +170,15 @@ function buildGachaResult(gachaResult){
     characterGachaContainer.innerHTML = structHTML;
 }
 let characterPool = [];
-loadJSON("data/character.json")
+loadJSON("data/character.json");
 
 let gachaCount = 0;
 let pickupCount = 0;
 
-let maxProbability = 10000
-let pickProbability = 0.007 * maxProbability
-let ssrProbability = 0.025 * maxProbability //2.5
-let srProbability = 0.185 * maxProbability  //18.5
+let maxProbability = 10000;
+let pickProbability = 0.007 * maxProbability;
+let ssrProbability = 0.025 * maxProbability;
+let srProbability = 0.185 * maxProbability;
 
 let pickupPool = calculatePickupPool(characterPool);
 let ssrPool = calculateSSRPool(characterPool);
