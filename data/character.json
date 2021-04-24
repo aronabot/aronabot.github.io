@@ -588,18 +588,88 @@
         }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Hanae.html",
         "name": "하나에",
         "role": "힐러",
         "icon": "img/character/Hanae.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "트리니티",
+            "role": "힐러",
+            "position": "후위",
+            "weapon": "AR",
+            "attackType": "폭발",
+            "defenceType": "중장갑",
+
+            "HP": 2690,
+            "ATK": 178,
+            "DEF": 25,
+            "HEAL": 2530,
+            "skill": {
+                "EX": {
+                    "name": "치료의 시간입니다~",
+                    "cost": 4,
+                    "describe": "아군 1명에게</br>치유력의 54.1%만큼 지속회복(20초)"
+                },
+                "normal": {
+                    "name": "쓰러지면 안돼요!",
+                    "describe": "25초마다 HP가 가장 낮은 아군에게</br>방어력 17.7% 증가(20초)"
+                },
+                "passive": {
+                    "name": "솜씨 향상",
+                    "describe": "치유력 14% 증가"
+                },
+                "sub": {
+                    "name": "모두 힘내주세요!",
+                    "describe": "아군 회심 피해 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Hare.html",
         "name": "하레",
         "role": "서포터",
         "icon": "img/character/Hare.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "밀레니엄",
+            "role": "서포터",
+            "position": "후위",
+            "weapon": "AR",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2314,
+            "ATK": 201,
+            "DEF": 19,
+            "HEAL": 1724,
+            "skill": {
+                "EX": {
+                    "name": "EMP 드론 전개",
+                    "cost": 4,
+                    "describe": "원형 범위 내의 적에게 공격력의 271%의 피해를 주며</br>기절상태 부여(2.7초)"
+                },
+                "normal": {
+                    "name": "파괴 공작: 플랜 A",
+                    "describe": "30초 마다 적 1명의 회복률 26.7% 감소(15초)"
+                },
+                "passive": {
+                    "name": "무장 강화: 플랜 B",
+                    "describe": "회심율 14% 증가"
+                },
+                "sub": {
+                    "name": "요격 시스템 작동",
+                    "describe": "아군 회피율 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
         "info": "characters/Arisu.html",

@@ -116,4 +116,8 @@
         height: auto;
     }
 
+    #character-icon-container {
+        width: 100vw;
+    }
+
 }
