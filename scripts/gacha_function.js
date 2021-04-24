@@ -65,6 +65,11 @@ function loadJSON(requestURL){
     request.onload = function() {
         var result = request.response;
         characterPool = result;
+        pickupPool = calculatePickupPool(characterPool);
+        ssrPool = calculateSSRPool(characterPool);
+        srPool = calculateSRPool(characterPool);
+        rPool = calculateRPool(characterPool);
+
         buildPickupInfo(characterPool);
     }
 }
@@ -180,10 +185,10 @@ let pickProbability = 0.007 * maxProbability;
 let ssrProbability = 0.025 * maxProbability;
 let srProbability = 0.185 * maxProbability;
 
-let pickupPool = calculatePickupPool(characterPool);
-let ssrPool = calculateSSRPool(characterPool);
-let srPool = calculateSRPool(characterPool);
-let rPool = calculateRPool(characterPool);
+let pickupPool = [];
+let ssrPool = [];
+let srPool = [];
+let rPool = [];
 
 
 
