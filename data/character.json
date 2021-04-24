@@ -1506,131 +1506,691 @@
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Neru.html",
         "name": "네루",
         "role": "어태커",
         "icon": "img/character/Neru.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "밀레니엄",
+            "role": "어태커",
+            "position": "전위",
+            "weapon": "SMG",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2409,
+            "ATK": 222,
+            "DEF": 18,
+            "HEAL": 1495,
+            "skill": {
+                "EX": {
+                    "name": "아앙? 뒤지고싶냐?",
+                    "cost": 2,
+                    "describe": "적 1명에게 공격력 476%의 피해</br>자신이 분노한 상태일 경우 데미지 1.5x"
+                },
+                "normal": {
+                    "name": "깝치지마!",
+                    "describe": "3초마다 자신에게 분노상태 부여 및</br>회피율 17.8% 증가(20초)"
+                },
+                "passive": {
+                    "name": "콜사인 Double-O",
+                    "describe": "회심 피해율 14% 증가"
+                },
+                "sub": {
+                    "name": "격양",
+                    "describe": "분노상태시 공격력 16.8% 증가 (30초)"
+                }
+            },
+            "equipment": [
+                "Hat", "Badge", "Charm"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Nonomi.html",
         "name": "노노미",
         "role": "어태커",
         "icon": "img/character/Nonomi.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "아비도스",
+            "role": "어태커",
+            "position": "후위",
+            "weapon": "MG",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2377,
+            "ATK": 276,
+            "DEF": 84,
+            "HEAL": 1459,
+            "skill": {
+                "EX": {
+                    "name": "체벌의 시간이에요~♣",
+                    "cost": 2,
+                    "describe": "부채꼴 범위 내 적에게</br>공격력 432%의 피해"
+                },
+                "normal": {
+                    "name": "짠~☆",
+                    "describe": "30초마다 공격력 21.8% 증가 (20초)"
+                },
+                "passive": {
+                    "name": "떽! 이에요!",
+                    "describe": "회심 피해율 14% 증가"
+                },
+                "sub": {
+                    "name": "깨끗하게 청소해드릴게요~♧",
+                    "describe": "공격 시 대형 적에게 공격력 6.7%만큼 추가데미지"
+                }
+            },
+            "equipment": [
+                "Hat", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Saya.html",
         "name": "사야",
         "role": "서포터",
         "icon": "img/character/Saya.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "산해경",
+            "role": "서포터",
+            "position": "후위",
+            "weapon": "HG",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2448,
+            "ATK": 207,
+            "DEF": 21,
+            "HEAL": 1691,
+            "skill": {
+                "EX": {
+                    "name": "이몸의 걸작인거다!",
+                    "cost": 6,
+                    "describe": "원형 범위 내 적에게</br>공격력 126%의 지속피해 (8초)"
+                },
+                "normal": {
+                    "name": "새로운 실험인거다!",
+                    "describe": "20초마다 적 1명의 회심율 12.1% 감소 (20초)</br>공격력 36.5%의 중독지속피해 부여 (20초)"
+                },
+                "passive": {
+                    "name": "이몸은 역시 위대한거다!",
+                    "describe": "공격력 14% 증가"
+                },
+                "sub": {
+                    "name": "이몸만 믿는것이다!",
+                    "describe": "아군 회심율 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Serika.html",
         "name": "세리카",
         "role": "어태커",
         "icon": "img/character/Serika.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "아비도스",
+            "role": "어태커",
+            "position": "중위",
+            "weapon": "AR",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2301,
+            "ATK": 296,
+            "DEF": 19,
+            "HEAL": 1506,
+            "skill": {
+                "EX": {
+                    "name": "방해야!",
+                    "cost": 2,
+                    "describe": "스킬 발동 즉시 재장전</br>공격력 35.6% 증가 (30초)"
+                },
+                "normal": {
+                    "name": "조준사격",
+                    "describe": "25초마다 적 1명에게 공격력의 223%의 피해"
+                },
+                "passive": {
+                    "name": "아르바이트 근성",
+                    "describe": "공격력 14% 증가"
+                },
+                "sub": {
+                    "name": "대책 위원회의 분노",
+                    "describe": "EX 스킬 사용 시 공격속도 20.1% 증가 (30초)"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Serina.html",
         "name": "세리나",
         "role": "힐러",
         "icon": "img/character/Serina.png",
-        "rarity": 1
+        "rarity": 1,
+        "property": {
+            "school": "트리니티",
+            "role": "힐러",
+            "position": "후위",
+            "weapon": "AR",
+            "attackType": "신비",
+            "defenceType": "경장갑",
+
+            "HP": 2482,
+            "ATK": 167,
+            "DEF": 24,
+            "HEAL": 2431,
+            "skill": {
+                "EX": {
+                    "name": "집중치료세트 A",
+                    "cost": 2,
+                    "describe": "아군 1명을 지정된 위치로 이동시킨 후</br>치유력 120%만큼 회복"
+                },
+                "normal": {
+                    "name": "응급치료세트 B",
+                    "describe": "35초마다 한명의 아군에게</br>치유력 94%만큼 회복"
+                },
+                "passive": {
+                    "name": "백의의 천사",
+                    "describe": "치유력 14% 증가"
+                },
+                "sub": {
+                    "name": "천사의 미소",
+                    "describe": "아군의 CC저항력 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Shimiko.html",
         "name": "시미코",
         "role": "서포터",
         "icon": "img/character/Shimiko.png",
-        "rarity": 1
+        "rarity": 1,
+        "property": {
+            "school": "트리니티",
+            "role": "서포터",
+            "position": "후위",
+            "weapon": "AR",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2211,
+            "ATK": 192,
+            "DEF": 19,
+            "HEAL": 1637,
+            "skill": {
+                "EX": {
+                    "name": "지식의 방패",
+                    "cost": 3,
+                    "describe": "차폐물을 설치하여</br>범위 내 아군의 방어력 16.3% 증가 (30초)"
+                },
+                "normal": {
+                    "name": "마음의 영양제",
+                    "describe": "35초마다 HP가 가장 낮은 아군 1명에게</br>치유력 119%의 쉴드를 부여 (16초)"
+                },
+                "passive": {
+                    "name": "지식을 쌓읍시다!",
+                    "describe": "치유력 14% 증가"
+                },
+                "sub": {
+                    "name": "다같이 독서회를 열어봅시다!",
+                    "describe": "아군 방어력 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Shiroko.html",
         "name": "시로코",
         "role": "어태커",
         "icon": "img/character/Shiroko.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "아비도스",
+            "role": "어태커",
+            "position": "중위",
+            "weapon": "AR",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2492,
+            "ATK": 339,
+            "DEF": 19,
+            "HEAL": 1661,
+            "skill": {
+                "EX": {
+                    "name": "드론 소환 : 화력지원",
+                    "cost": 2,
+                    "describe": "1명의 적에게 공격력의 400%의 피해"
+                },
+                "normal": {
+                    "name": "수류탄 투척",
+                    "describe": "25초마다 적에게 공격력의 193%의 피해"
+                },
+                "passive": {
+                    "name": "핀 포인트",
+                    "describe": "회심율 14% 증가"
+                },
+                "sub": {
+                    "name": "고속 연사",
+                    "describe": "일반 공격 시 20% 확률로</br>공격속도 30.2%증가(30초)</br>(쿨타임 25초)"
+                }
+            },
+            "equipment": [
+                "Hat", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Shun.html",
         "name": "슌",
         "role": "어태커",
         "icon": "img/character/Shun.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "산해경",
+            "role": "어태커",
+            "position": "후위",
+            "weapon": "SR",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2382,
+            "ATK": 344,
+            "DEF": 20,
+            "HEAL": 1511,
+            "skill": {
+                "EX": {
+                    "name": "나쁜아이는 어디에있나요?",
+                    "cost": 3,
+                    "describe": "일반 공격을 공격력 153%의 피해로 강화 및</br>일반 공격의 사거리를 24.4% 증가 및</br>회심율 26.3% 증가 및</br>공격속도 18.8% 감소 (30초)"
+                },
+                "normal": {
+                    "name": "여러분, 집중하세요!",
+                    "describe": "전투 시작 시 코스트 2 흭득</br>(전투 중 1회 한정)"
+                },
+                "passive": {
+                    "name": "교관의 품격",
+                    "describe": "공격력 14% 증가"
+                },
+                "sub": {
+                    "name": "매화원의 교양",
+                    "describe": "공격시 중형 적에 대해 공격력 50.7%의 추가피해"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Sumire.html",
         "name": "스미레",
         "role": "어태커",
         "icon": "img/character/Sumire.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "밀레니엄",
+            "role": "어태커",
+            "position": "전위",
+            "weapon": "SG",
+            "attackType": "관통",
+            "defenceType": "특수장갑",
+
+            "HP": 2426,
+            "ATK": 202,
+            "DEF": 129,
+            "HEAL": 1484,
+            "skill": {
+                "EX": {
+                    "name": "스퍼트를 내겠습니다!",
+                    "cost": 3,
+                    "describe": "부채꼴 범위 내 적에 대해</br>공격력 742%의 피해"
+                },
+                "normal": {
+                    "name": "워밍업",
+                    "describe": "40초마다 공격력 25.2% 증가 (20초)"
+                },
+                "passive": {
+                    "name": "핀포인트 어택",
+                    "describe": "HP 14% 증가"
+                },
+                "sub": {
+                    "name": "텐셥 업",
+                    "describe": "자신이 CC상태가 아닐 때</br>방어력 13.4% 증가"
+                }
+            },
+            "equipment": [
+                "Hat", "Bag", "Charm"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Suzumi.html",
         "name": "스즈미",
         "role": "서포터",
         "icon": "img/character/Suzumi.png",
-        "rarity": 1
+        "rarity": 1,
+        "property": {
+            "school": "트리니티",
+            "role": "서포터",
+            "position": "중위",
+            "weapon": "AR",
+            "attackType": "폭발",
+            "defenceType": "중장갑",
+
+            "HP": 2281,
+            "ATK": 192,
+            "DEF": 20,
+            "HEAL": 1380,
+            "skill": {
+                "EX": {
+                    "name": "오더메이드 섬광탄",
+                    "cost": 4,
+                    "describe": "원형 범위 내 적에게 공격력의 389%의 피해"
+                },
+                "normal": {
+                    "name": "자경단의 저력",
+                    "describe": "25초마다 적 1명에게 공격력의 233%의 피해"
+                },
+                "passive": {
+                    "name": "긴급 회피",
+                    "describe": "회피율 14% 증가"
+                },
+                "sub": {
+                    "name": "자경단의 맹습",
+                    "describe": "CC 상태의 적을 공격시</br>공격력의 27.5%만큼 추가데미지"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Charm"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Tsubaki.html",
         "name": "츠바키",
         "role": "탱커",
         "icon": "img/character/Tsubaki.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "백귀야행",
+            "role": "탱커",
+            "position": "전위",
+            "weapon": "SMG",
+            "attackType": "관통",
+            "defenceType": "특수장갑",
+
+            "HP": 3200,
+            "ATK": 179,
+            "DEF": 31,
+            "HEAL": 1445,
+            "skill": {
+                "EX": {
+                    "name": "전투용 실드, 장착",
+                    "cost": 4,
+                    "describe": "방어력 28.1% 증가 (30초) 및</br>원형 범위 내 적 도발상태 부여 (4.7초)"
+                },
+                "normal": {
+                    "name": "피곤하면 자는게 제일이야",
+                    "describe": "HP 30% 이하일 때 치유력의 349%만큼 회복</br>(전투 중 1회 한정)"
+                },
+                "passive": {
+                    "name": "담력",
+                    "describe": "방어력 14% 증가"
+                },
+                "sub": {
+                    "name": "숙련된 재장전",
+                    "describe": "재장전 중 받는 피해 24% 감소"
+                }
+            },
+            "equipment": [
+                "Hat", "Bag", "Charm"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Tsurugi.html",
         "name": "츠루기",
         "role": "어태커",
         "icon": "img/character/Tsurugi.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "트리니티",
+            "role": "어태커",
+            "position": "전위",
+            "weapon": "SG",
+            "attackType": "관통",
+            "defenceType": "중장갑",
+
+            "HP": 2747,
+            "ATK": 413,
+            "DEF": 147,
+            "HEAL": 1456,
+            "skill": {
+                "EX": {
+                    "name": "기기괴괴",
+                    "cost": 3,
+                    "describe": "발동 즉시 재장전하며</br>일반 공격을 공격력 138%의 피해를 입히는</br>부채꼴 범위 공격으로 변경 및 공격력 25.8% 증가</br>(재장전을 1회 수행할 때까지 유효)"
+                },
+                "normal": {
+                    "name": "걱정",
+                    "describe": "적을 쓰러뜨렸을 때 치유력의 116%만큼 회복</br>(쿨타임 10초)"
+                },
+                "passive": {
+                    "name": "기민",
+                    "describe": "이동속도 14% 증가"
+                },
+                "sub": {
+                    "name": "제어할 수 없는 힘",
+                    "describe": "적을 쓰려뜨렸을 때</br>30% 확율로 탄약수 1 추가"
+                }
+            },
+            "equipment": [
+                "Gloves", "Bag", "Charm"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Utaha.html",
         "name": "우타하",
         "role": "어태커",
         "icon": "img/character/Utaha.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "밀레니엄",
+            "role": "어태커",
+            "position": "후위",
+            "weapon": "SMG",
+            "attackType": "관통",
+            "defenceType": "중장갑",
+
+            "HP": 2408,
+            "ATK": 255,
+            "DEF": 20,
+            "HEAL": 1696,
+            "skill": {
+                "EX": {
+                    "name": "천둥이, 소환",
+                    "cost": 4,
+                    "describe": "터렛 소환</br>터렛은 우타하의 공격력 81.4%만큼을 가짐 (30초)"
+                },
+                "normal": {
+                    "name": "천둥이 MK-|| 기동",
+                    "describe": "매 30초마다 터렛을 소환</br>터렛은 우타하의 공격력 38.2%만큼을 가짐 (20초)"
+                },
+                "passive": {
+                    "name": "기술혁명",
+                    "describe": "공격력 14% 증가"
+                },
+                "sub": {
+                    "name": "마이스터의 맹세",
+                    "describe": "아군 HP 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Yoshimi.html",
         "name": "요시미",
         "role": "어태커",
         "icon": "img/character/Yoshimi.png",
-        "rarity": 1
+        "rarity": 1,
+        "property": {
+            "school": "트리니티",
+            "role": "어태커",
+            "position": "후위",
+            "weapon": "AR",
+            "attackType": "관통",
+            "defenceType": "중장갑",
+
+            "HP": 2232,
+            "ATK": 268,
+            "DEF": 19,
+            "HEAL": 1622,
+            "skill": {
+                "EX": {
+                    "name": "누.. 누가 당황하고 있다는거야!?",
+                    "cost": 4,
+                    "describe": "원형 범위 내 적에게 공격력 220%의 피해 및</br>기절상태 부여 (2.2초)"
+                },
+                "normal": {
+                    "name": "따끔한 맛 좀 볼래?!",
+                    "describe": "25초마다 원형 범위 내 적에게</br>공격력 191%의 피해"
+                },
+                "passive": {
+                    "name": "야.. 얕보지마!",
+                    "describe": "회심율 14% 증가"
+                },
+                "sub": {
+                    "name": "내 말좀 들어보라고!",
+                    "describe": "아군 CC강화력 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Hat", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Yuuka.html",
         "name": "유우카",
         "role": "탱커",
         "icon": "img/character/Yuuka.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "밀레니엄",
+            "role": "탱커",
+            "position": "전위",
+            "weapon": "SMG",
+            "attackType": "폭발",
+            "defenceType": "중장갑",
+
+            "HP": 3146,
+            "ATK": 118,
+            "DEF": 29,
+            "HEAL": 1505,
+            "skill": {
+                "EX": {
+                    "name": "Q.E.D",
+                    "cost": 3,
+                    "describe": "치유력의 190%만큼 쉴드 효과 발동 (15초)"
+                },
+                "normal": {
+                    "name": "I.F.F",
+                    "describe": "15초마다 적 1명에게 공격력 301%의 피해"
+                },
+                "passive": {
+                    "name": "최적 솔루션 도출",
+                    "describe": "방어력 14% 증가"
+                },
+                "sub": {
+                    "name": "고속 암산",
+                    "describe": "엄폐중일시 치유력의 75%만큼 회복</br>(쿨타임 10초)"
+                }
+            },
+            "equipment": [
+                "Shoes", "Badge", "Charm"
+            ]
+        }
     },
     {
         "pickup": false,
-        "info": "characters/Arisu.html",
+        "info": "characters/Shizuko.html",
         "name": "시즈코",
         "role": "서포터",
         "icon": "img/character/Shizuko.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "백귀야행",
+            "role": "서포터",
+            "position": "후위",
+            "weapon": "SG",
+            "attackType": "신비",
+            "defenceType": "특수장갑",
+
+            "HP": 2350,
+            "ATK": 184,
+            "DEF": 119,
+            "HEAL": 1738,
+            "skill": {
+                "EX": {
+                    "name": "백야당 출장 서비스!",
+                    "cost": 3,
+                    "describe": "차폐물을 설치하여</br>원형범위 내 아군의 명중률 16.3% 증가 (30초)</br>차폐물은 시즈코 HP의 292%만큼을 가짐"
+                },
+                "normal": {
+                    "name": "영업 방해하지 마!",
+                    "describe": "25초마다 적 1명에 대해 공격력 184%의 피해 및</br>추가로 공격력 17.4% 감소시킴 (21초)"
+                },
+                "passive": {
+                    "name": "데.. 데헷?",
+                    "describe": "명중률 14% 증가"
+                },
+                "sub": {
+                    "name": "냥냥!",
+                    "describe": "아군 회심율 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     }
 
 ]
