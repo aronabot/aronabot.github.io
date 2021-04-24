@@ -42,11 +42,46 @@
         }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Midori.html",
         "name": "미도리",
         "role": "어태커",
         "icon": "img/character/Midori.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "밀레니엄",
+            "role": "어태커",
+            "position": "후방",
+            "weapon": "SR",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2489,
+            "ATK": 385,
+            "DEF": 19,
+            "HEAL": 1665,
+            "skill": {
+                "EX": {
+                    "name": "드로잉 아트",
+                    "cost": 3,
+                    "describe": "둘 이상의 적에게 공격력 119%의 피해</br>만약, 모모이가 같은 부대에 있을 경우</br>공격력 39.8% 중독 지속 데미지 부여(20초)"
+                },
+                "normal": {
+                    "name": "갈고 닦는 센스",
+                    "describe": "25초마다 자신을 제외한 HP가 가장 낮은 아군에게 회복력 77.5%만큼 회복"
+                },
+                "passive": {
+                    "name": "아티스트의 영감",
+                    "describe": "회심율 14% 증가"
+                },
+                "sub": {
+                    "name": "개발자 시너지: 모모이",
+                    "describe": "공격속도 15% 증가</br>만약, 같은 부대에 모모이가 있을 경우</br>공격속도 18.1% 증가"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
         "info": "characters/Arisu.html",
