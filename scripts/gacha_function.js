@@ -169,7 +169,7 @@ function buildGachaResult(gachaResult){
     var characterGachaContainer = document.getElementById('character-gacha-container');
     characterGachaContainer.innerHTML = structHTML;
 }
-
+let characterPool = [];
 loadJSON("data/character.json")
 
 let gachaCount = 0;
