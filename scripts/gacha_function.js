@@ -202,10 +202,20 @@ $('.one-gacha-button').click(function(){
 
 $('.ten-gacha-button').click(function(){
     var result = []
-    for(var i = 0; i < 10; i ++){
+    
+    for(var i = 0; i < 9; i ++){
         var character = calculateGacha();
         result.push(character);
     }
+
+    var decisionConst = Math.floor(Math.random() * maxProbability);
+    if(ssrProbability >= decisionConst){
+        result.push(randomItem(ssrPool));
+    }
+    else{
+        result.push(randomItem(srPool));
+    }
+
     gachaCount += 10;
     buildGachaResult(result);
 })
