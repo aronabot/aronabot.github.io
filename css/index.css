@@ -4,6 +4,12 @@ html.open {
     overflow: hidden;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
 body{
     font-size: medium;
     /*background-color: rgb(50, 50, 70);*/
@@ -14,10 +20,7 @@ nav {
     display: flex;
     height: 60px;
     padding: 0 15% 0 15%;
-    position: sticky;
-    top: 0;
     background-color: rgba(43, 60, 78, .9);
-    z-index: 10;
 }
 
 nav > .logo {
