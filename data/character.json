@@ -147,7 +147,7 @@
                 "EX": {
                     "name": "아쉽지만...... 에잇!",
                     "cost": 5,
-                    "describe": "원형 범위 내 적에 대해 공격력 265%의 피해</br>및, 이동속도 22.8% 감소(20초)"
+                    "describe": "원형 범위 내 적에 대해 공격력 265%의 피해 및</br>이동속도 22.8% 감소(20초)"
                 },
                 "normal": {
                     "name": "머리가 띵- 할지도...",
@@ -189,7 +189,7 @@
                 "EX": {
                     "name": "우아하게 배제하겠습니다",
                     "cost": 2,
-                    "describe": "적 1명에게 공격력 547%의 피해</br>및, 방어력 29% 감소(30초)"
+                    "describe": "적 1명에게 공격력 547%의 피해 및</br>방어력 29% 감소(30초)"
                 },
                 "normal": {
                     "name": "품위 있게 꿰뚫겠습니다",
@@ -252,60 +252,340 @@
         }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Aru.html",
         "name": "아루",
         "role": "어태커",
         "icon": "img/character/Aru.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "게헨나",
+            "role": "어태커",
+            "position": "후위",
+            "weapon": "SR",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 2392,
+            "ATK": 394,
+            "DEF": 20,
+            "HEAL": 1506,
+            "skill": {
+                "EX": {
+                    "name": "하드보일드 샷",
+                    "cost": 4,
+                    "describe": "적 1명에 대해 공격력 274%의 피해 및</br>원형 범위 내 적에게 공격력 292%의 피해"
+                },
+                "normal": {
+                    "name": "느와르 샷",
+                    "describe": "25초마다 적 1명에 대해 공격력 152%의 피해 및</br>50% 확률로 원형 범위 내 적에게 공격력 251%의 피해"
+                },
+                "passive": {
+                    "name": "사장의 위엄",
+                    "describe": "회심 피해율 14% 증가"
+                },
+                "sub": {
+                    "name": "아웃트로 방식",
+                    "describe": "EX스킬 사용 중 회심율 20.1% 증가"
+                }
+            },
+            "equipment": [
+                "Hat", "Hairpin", "Watch"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Asuna.html",
         "name": "아스나",
         "role": "어태커",
         "icon": "img/character/Asuna.png",
-        "rarity": 1
+        "rarity": 1,
+        "property": {
+            "school": "밀레니엄",
+            "role": "어태커",
+            "position": "중위",
+            "weapon": "AR",
+            "attackType": "신비",
+            "defenceType": "경장갑",
+
+            "HP": 2309,
+            "ATK": 266,
+            "DEF": 20,
+            "HEAL": 1362,
+            "skill": {
+                "EX": {
+                    "name": "갑니다!",
+                    "cost": 2,
+                    "describe": "스킬 사용 중 회피율 43.4% 증가 및</br>공격속도 30.2% 증가(30초)"
+                },
+                "normal": {
+                    "name": "쏩니다!",
+                    "describe": "20초마다 적 1명에게 공격력의 219&의 피해"
+                },
+                "passive": {
+                    "name": "이거 아프다구요?",
+                    "describe": "회심 피해 14% 증가"
+                },
+                "sub": {
+                    "name": "속도를 높혀볼까요?",
+                    "describe": "EX스킬 사용시 공격속도 20.1% 증가(30초)"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Ayane.html",
         "name": "아야네",
         "role": "서포터",
         "icon": "img/character/Ayane.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "아비도스",
+            "role": "서포터",
+            "position": "후위",
+            "weapon": "HG",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2690,
+            "ATK": 126,
+            "DEF": 26,
+            "HEAL": 2471,
+            "skill": {
+                "EX": {
+                    "name": "지원특급편",
+                    "cost": 4,
+                    "describe": "원형 범위 내 아군에게</br>치유력 118% 만큼 회복"
+                },
+                "normal": {
+                    "name": "학습지원",
+                    "describe": "30초마다 원형 범위 내</br>아군 회심저항 15.5% 증가"
+                },
+                "passive": {
+                    "name": "항학심",
+                    "describe": "치유력 14% 증가"
+                },
+                "sub": {
+                    "name": "사기 향상",
+                    "describe": "아군 HP 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Chinatsu.html",
         "name": "치나츠",
         "role": "힐러",
         "icon": "img/character/Chinatsu.png",
-        "rarity": 1
+        "rarity": 1,
+        "property": {
+            "school": "게헨나",
+            "role": "힐러",
+            "position": "후위",
+            "weapon": "HG",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2515,
+            "ATK": 122,
+            "DEF": 25,
+            "HEAL": 2399,
+            "skill": {
+                "EX": {
+                    "name": "천상 치료",
+                    "cost": 4,
+                    "describe": "아군 1명에게 치유력 195%만큼 회복"
+                },
+                "normal": {
+                    "name": "전황 재정비",
+                    "describe": "40초마다 HP가 가장 낮은 아군 1명의</br>회피율 50.9% 증가(30초)"
+                },
+                "passive": {
+                    "name": "의료지원 강화",
+                    "describe": "치유력 14% 증가"
+                },
+                "sub": {
+                    "name": "방어지원 강화",
+                    "describe": "아군 방어력 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Chise.html",
         "name": "치세",
         "role": "어태커",
         "icon": "img/character/Chise.png",
-        "rarity": 2
+        "rarity": 2, 
+        "property": {
+            "school": "백귀야행",
+            "role": "어태커",
+            "position": "중위",
+            "weapon": "GL",
+            "attackType": "신비",
+            "defenceType": "중장갑",
+
+            "HP": 2368,
+            "ATK": 233,
+            "DEF": 21,
+            "HEAL": 1465,
+            "skill": {
+                "EX": {
+                    "name": "이건 좀 아플거야~",
+                    "cost": 4,
+                    "describe": "원형 범위 내 적에게</br>공격력 56% 만큼 지속피해(10초)"
+                },
+                "normal": {
+                    "name": "쏜다~",
+                    "describe": "25초 마다 원형 범위 내 적에게</br>공격력 219%의 피해"
+                },
+                "passive": {
+                    "name": "좋아 힘내~",
+                    "describe": "공격력 14% 증가"
+                },
+                "sub": {
+                    "name": "살짝 아플거야~",
+                    "describe": "일반 공격시 10% 확률로</br>공격력 53.7%의 지속 화상 피해 부여(20초)</br>(쿨타임 5초)"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Eimi.html",
         "name": "에이미",
         "role": "탱커",
         "icon": "img/character/Eimi.png",
-        "rarity": 3
+        "rarity": 3,
+        "property": {
+            "school": "밀레니엄",
+            "role": "탱커",
+            "position": "전위",
+            "weapon": "SG",
+            "attackType": "폭발",
+            "defenceType": "경장갑",
+
+            "HP": 3280,
+            "ATK": 120,
+            "DEF": 195,
+            "HEAL": 1464,
+            "skill": {
+                "EX": {
+                    "name": "불굴의 의지",
+                    "cost": 4,
+                    "describe": "치유력의 8.6% + 잃은 HP의 3.4% 만큼</br>지속회복 부여(20초)"
+                },
+                "normal": {
+                    "name": "집념의 맹격",
+                    "describe": "15초 마다 부채꼴 범위 내 적에 대해 공격력 297%의 피해"
+                },
+                "passive": {
+                    "name": "스페셜리스트의 휴식",
+                    "describe": "회복력 14% 증가"
+                },
+                "sub": {
+                    "name": "강인한 정신력",
+                    "describe": "HP 50% 이하일 때</br>CC 저항력 20.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Bag", "Charm"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Fina.html",
         "name": "피나",
         "role": "어태커",
         "icon": "img/character/Fina.png",
-        "rarity": 1
+        "rarity": 1,
+        "property": {
+            "school": "백귀야행",
+            "role": "어태커",
+            "position": "후위",
+            "weapon": "MG",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 2305,
+            "ATK": 253,
+            "DEF": 81,
+            "HEAL": 1365,
+            "skill": {
+                "EX": {
+                    "name": "연사모드, 입니다!",
+                    "cost": 4,
+                    "describe": "공격력 29.1% 증가 및</br>일반 공격 딜레이 3회 무시(30초)</br>발동 즉시 재장전"
+                },
+                "normal": {
+                    "name": "다시 한번 달아오르는 것 입니다!",
+                    "describe": "HP 20% 이하일 때, 치유력 355% 만큼 회복</br>(전투 중 1회)"
+                },
+                "passive": {
+                    "name": "날카로운 직감",
+                    "describe": "회심율 14% 증가"
+                },
+                "sub": {
+                    "name": "사격 준비, OK!",
+                    "describe": "10초 간 이동하지 않았을 때</br>공격속도 20.1% 증가"
+                }
+            },
+            "equipment": [
+                "Gloves", "Hairpin", "Watch"
+            ]
+        }
     },
     {
-        "info": "characters/Arisu.html",
+        "info": "characters/Fuuka.html",
         "name": "후우카",
         "role": "힐러",
         "icon": "img/character/Fuuka.png",
-        "rarity": 2
+        "rarity": 2,
+        "property": {
+            "school": "게헨나",
+            "role": "힐러",
+            "position": "후위",
+            "weapon": "SMG",
+            "attackType": "폭발",
+            "defenceType": "중장갑",
+
+            "HP": 2673,
+            "ATK": 152,
+            "DEF": 26,
+            "HEAL": 2488,
+            "skill": {
+                "EX": {
+                    "name": "급식시간입니다!",
+                    "cost": 5,
+                    "describe": "원형 범위 내 아군 4명을 지정된 위치로 이동시킨 후</br>치유력의 109% 만큼 회복"
+                },
+                "normal": {
+                    "name": "급식부의 상냥함",
+                    "describe": "20초마다 최대 HP가 가장 높은 아군 1명의</br>방어력 18.1% 증가(16초)"
+                },
+                "passive": {
+                    "name": "신선한 재료를 모아보죠!",
+                    "describe": "치유력 14% 증가"
+                },
+                "sub": {
+                    "name": "급식부의 긍지",
+                    "describe": "아군 회심 저항력 9.1% 증가"
+                }
+            },
+            "equipment": [
+                "Shoes", "Hairpin", "Necklace"
+            ]
+        }
     },
     {
         "info": "characters/Arisu.html",
