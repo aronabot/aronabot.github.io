@@ -1,5 +1,50 @@
 [
     {
+        "impl": false,
+        "pickup": false,
+        "info": "characters/Cherino.html",
+        "name": "체리노",
+        "role": "서포터",
+        "icon": "img/character/Cherino.png",
+        "rarity": 3,
+        "property": {
+            "school": "레드윈터",
+            "role": "어태커",
+            "position": "중위",
+            "weapon": "HG",
+            "attackType": "관통",
+            "defenceType": "경장갑",
+
+            "HP": 0,
+            "ATK": 0,
+            "DEF": 0,
+            "HEAL": 0,
+            "skill": {
+                "EX": {
+                    "name": "친위대 소환!",
+                    "cost": 8,
+                    "describe": "자신 주의의 적에게 300%의 피해를 입힙니다.</br>적의 현재 HP에 15% 비례한 피해를 추가로 입힙니다.</br>자신의 주위의 적에게 300%의 피해"
+                },
+                "normal": {
+                    "name": "이놈을 숙청하는 것이다!",
+                    "describe": "일정 시간마다 공격력이 가장 높은 대상을</br>12.1초 동안 집중 공격하도록 명령합니다"
+                },
+                "passive": {
+                    "name": "이게 수엽의 힘!",
+                    "describe": "최대 HP 14% 증가"
+                },
+                "sub": {
+                    "name": "이것이 바로 수염의 권위다!",
+                    "describe": "코스트 회복 속도를 672% 증가시킵니다"
+                }
+            },
+            "equipment": [
+                "Hat", "Bag", "Watch"
+            ]
+        }
+    },
+    {
+        "impl": true,
         "pickup": false,
         "info": "characters/Arisu.html",
         "name": "아리스",
@@ -43,6 +88,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Midori.html",
         "name": "미도리",
@@ -86,6 +132,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Momoi.html",
         "name": "모모이",
@@ -129,6 +176,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Airi.html",
         "name": "아이리",
@@ -172,6 +220,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Akane.html",
         "name": "아카네",
@@ -215,6 +264,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Akari.html",
         "name": "아카리",
@@ -258,6 +308,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Aru.html",
         "name": "아루",
@@ -301,6 +352,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Asuna.html",
         "name": "아스나",
@@ -344,6 +396,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Ayane.html",
         "name": "아야네",
@@ -387,6 +440,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Chinatsu.html",
         "name": "치나츠",
@@ -430,6 +484,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Chise.html",
         "name": "치세",
@@ -473,6 +528,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Eimi.html",
         "name": "에이미",
@@ -516,6 +572,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Fina.html",
         "name": "피나",
@@ -559,6 +616,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Fuuka.html",
         "name": "후우카",
@@ -602,6 +660,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Hanae.html",
         "name": "하나에",
@@ -645,6 +704,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Hare.html",
         "name": "하레",
@@ -688,6 +748,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Haruka.html",
         "name": "하루카",
@@ -731,6 +792,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Haruna.html",
         "name": "하루나",
@@ -774,6 +836,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Hasumi.html",
         "name": "하스미",
@@ -817,6 +880,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Hibiki.html",
         "name": "히비키",
@@ -860,6 +924,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Hifumi.html",
         "name": "히후미",
@@ -903,6 +968,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Hina.html",
         "name": "히나",
@@ -946,6 +1012,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Hoshino.html",
         "name": "호시노",
@@ -989,6 +1056,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Iori.html",
         "name": "이오리",
@@ -1032,6 +1100,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Izumi.html",
         "name": "이즈미",
@@ -1075,6 +1144,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Izuna.html",
         "name": "이즈나",
@@ -1118,6 +1188,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Junko.html",
         "name": "쥰코",
@@ -1161,6 +1232,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Juri.html",
         "name": "쥬리",
@@ -1204,6 +1276,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": true,
         "info": "characters/Karin.html",
         "name": "카린",
@@ -1247,6 +1320,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Kayoko.html",
         "name": "카요코",
@@ -1290,6 +1364,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Kotama.html",
         "name": "코타마",
@@ -1333,6 +1408,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Kotori.html",
         "name": "코토리",
@@ -1376,6 +1452,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Maki.html",
         "name": "마키",
@@ -1419,6 +1496,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Mashiro.html",
         "name": "마시로",
@@ -1462,6 +1540,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Mutsuki.html",
         "name": "무츠키",
@@ -1505,6 +1584,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Neru.html",
         "name": "네루",
@@ -1548,6 +1628,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Nonomi.html",
         "name": "노노미",
@@ -1591,6 +1672,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Saya.html",
         "name": "사야",
@@ -1634,6 +1716,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Serika.html",
         "name": "세리카",
@@ -1677,6 +1760,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Serina.html",
         "name": "세리나",
@@ -1720,6 +1804,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Shimiko.html",
         "name": "시미코",
@@ -1763,6 +1848,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Shiroko.html",
         "name": "시로코",
@@ -1806,6 +1892,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Shun.html",
         "name": "슌",
@@ -1849,6 +1936,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Sumire.html",
         "name": "스미레",
@@ -1892,6 +1980,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Suzumi.html",
         "name": "스즈미",
@@ -1935,6 +2024,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Tsubaki.html",
         "name": "츠바키",
@@ -1978,6 +2068,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Tsurugi.html",
         "name": "츠루기",
@@ -2021,6 +2112,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Utaha.html",
         "name": "우타하",
@@ -2064,6 +2156,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Yoshimi.html",
         "name": "요시미",
@@ -2107,6 +2200,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Yuuka.html",
         "name": "유우카",
@@ -2150,6 +2244,7 @@
         }
     },
     {
+        "impl": true,
         "pickup": false,
         "info": "characters/Shizuko.html",
         "name": "시즈코",
@@ -2192,5 +2287,4 @@
             ]
         }
     }
-
 ]

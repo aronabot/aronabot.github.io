@@ -13,37 +13,13 @@
     </head>
     <body>
         <header>
-            <nav>
-                <a class='logo' href='../index.html'>
-                    <img id='logo-image' src='../img/icons/logo.png'>
-                </a>
-    
-                <div class='item-container'>
-                    <a class='item' href='../character.html'>캐릭터</a>
-                    <a class='item' href='../ready.html'>이벤트</a>
-                    <a class='item' href='../gacha.html'>가챠</a>
-                    <div onclick='history.back();' class='button-cover'></div>
-                    <div class='mobile-nav-button'>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </nav>
-    
-    
-            <div onclick="history.back();" class='page-cover'></div>
-            <div class='mobile-nav'>
-                <a class='item' href='../character.html'>캐릭터</a>
-                <a class='item' href='../ready.html'>이벤트</a>
-                <a class='item' href='../gacha.html'>가챠</a>
-            </div>
         </header>
 
 
         <div id='character-info-container'></div>
-        <script type='text/javascript' src='../data/character.json'></script>
+        <script type='text/javascript' src='../scripts/low_header_builder.js'></script>
         <script type='text/javascript' src='../scripts/mobile_nav.js'></script>
+        <script type='text/javascript' src='../data/character.json'></script>
         <script type='application/javascript'>
             loadJSON('../data/character.json', '아카리');
         </script>

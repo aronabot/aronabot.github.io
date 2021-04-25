@@ -76,25 +76,25 @@ function loadJSON(requestURL){
 
 function calculatePickupPool(JSONObject){
     return JSONObject.filter(function(e){
-        return e.pickup == true;
+        return e.pickup == true && e.impl == true;
     });
 }
 
 function calculateSSRPool(JSONObject){
     return JSONObject.filter(function(e){
-        return e.rarity == 3;
+        return e.rarity == 3 && e.impl == true;
     });
 }
 
 function calculateSRPool(JSONObject){
     return JSONObject.filter(function(e){
-        return e.rarity == 2;
+        return e.rarity == 2 && e.impl == true;
     });
 }
 
 function calculateRPool(JSONObject){
     return JSONObject.filter(function(e){
-        return e.rarity == 1;
+        return e.rarity == 1 && e.impl == true;
     });
 }
 function randomItem(array){

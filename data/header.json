@@ -1,0 +1,27 @@
+[
+    {
+        "type": 0,
+        "src": "img/icons/logo.png",
+        "dest": "index.html"
+    },
+    {
+        "type": 1,
+        "name": "캐릭터",
+        "dest": "character.html"
+    },
+    {
+        "type": 1,
+        "name": "이벤트",
+        "dest": "ready.html"
+    },
+    {
+        "type": 1,
+        "name": "전술대항전",
+        "dest": "ready.html"
+    },
+    {
+        "type": 1,
+        "name": "가챠",
+        "dest": "gacha.html"
+    }
+]
