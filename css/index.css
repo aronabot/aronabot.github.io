@@ -182,3 +182,28 @@ nav > .logo {
     text-align: center;
 }
 
+footer {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 120px;
+    background-color: rgb(43, 60, 78);
+    bottom: 0;
+
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.footer-content::before {
+    content: " | "
+}
+
+.footer-content:first-child::before {
+    content: none;
+}
+
+.footer-content {
+    text-decoration: none;
+    color: white;
+}

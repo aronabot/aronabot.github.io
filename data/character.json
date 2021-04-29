@@ -1,7 +1,7 @@
 [
     {
-        "impl": false,
-        "pickup": false,
+        "impl": true,
+        "pickup": true,
         "info": "characters/Cherino.html",
         "name": "체리노",
         "role": "서포터",
@@ -1277,7 +1277,7 @@
     },
     {
         "impl": true,
-        "pickup": true,
+        "pickup": false,
         "info": "characters/Karin.html",
         "name": "카린",
         "role": "어태커",

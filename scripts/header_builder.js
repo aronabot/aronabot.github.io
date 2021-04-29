@@ -60,4 +60,16 @@ function build_header(JSONObject){
     header.innerHTML = structHTML;
 }
 
+function build_footer(){
+    var structHTML = `            
+    <a class='footer-content' href='https://github.com/aronabot'>Contact</a>
+    <a class='footer-content' href='https://docs.google.com/spreadsheets/d/e/2PACX-1vRT3vi_5B6tHsz0s9qGy13-chVMURiogsaz0XXDaGKHPPDok5fRezAoI8NvtHeRqBuvIzmQEMnGr-34/pubhtml'>Source From DC</a>
+    <a class='footer-content' href='https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4u7GUMO52fMRY1Ndcjvo3MSRiG4FoAYfHzdKLQvVoMAm4wdCnTj-QGLMH2ypE-FRqXaQQLEBUHx4X/pubhtml'>Source From 나힝구</a>
+    <div>published by github</div>
+    `
+
+    var footer = document.getElementsByTagName('footer')[0];
+    footer.innerHTML = structHTML;
+}
+
 build_header(localHeader);
